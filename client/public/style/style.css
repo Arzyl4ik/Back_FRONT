@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    color: #333;
+}
+
+header {
+    background-color: #f8c76c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #f9c579;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: wheat;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 25px 0;
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 10px;
+}
+
+.inp-field {
+    background-color: #ffeacb;
+    border: 1px solid #f9c579;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.inp-field:focus {
+    outline: none;
+    border-color: #d4a017;
+}
+
+.btn-submit {
+    background-color: #d35400;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color: #a04000;
+}
+
+.items-list {
+    padding: 5px 10px 20px 10px;
+    border: 1px solid #f9c579;
+    border-radius: 8px;
+    gap: 20px;
+    background-color: rgb(255, 213, 162);
+}
+
+.item-card {
+    margin: 15px;
+    background-color: rgb(255, 213, 162);
+    padding: 12px;
+    border: 1px solid #f9c579;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-card h3 {
+    margin-top: 0;
+}
+
+.list-section {
+    margin-bottom: 30px;
+}
+
+.list-title {
+    margin-bottom: 12px;
+    color: #555;
+}
+
+
+.btn-delete {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
